@@ -101,4 +101,4 @@ client.on("messageDelete", async message => {
     client.channels.get(logsChannel).send(embed_delete);
 });
 
-client.login(token);
+client.login(process.env.BOT_TOKEN);
